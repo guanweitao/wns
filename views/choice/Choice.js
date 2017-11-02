@@ -9,15 +9,18 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  TextInput,
+  Button,
+  Image
 } from 'react-native';
 
 export default class Choice extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>精选s</Text>
-      </View>
+        <View style={styles.container}>
+          <Text>精选</Text>
+        </View>
     );
   }
 }
@@ -27,16 +30,25 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    // backgroundColor: '#F5FCFF',
   },
-  welcome: {
+  form: {
+    backgroundColor: 'red',
+    padding: 50,
+    borderRadius: 4,
+  },
+  formTitle: {
+    textAlign: 'center',
+    marginBottom: 15,
     fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  formInput: {
+    borderWidth: 1,
+    padding: 10,
+    paddingBottom: 5,
+    paddingTop: 5,
+    borderRadius: 4,
+    marginBottom: 10,
+    borderColor: '#000',
+  }
 });

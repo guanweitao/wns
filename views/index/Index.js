@@ -15,6 +15,7 @@ import {
   Image,
   ScrollView,
   Animated,
+  Navigator,
   TouchableOpacity,
   TouchableHighlight,
 } from 'react-native';
@@ -104,11 +105,10 @@ export default class Index extends Component {
                   key={i}>
                   <TouchableOpacity
                     onPress={() => {
-                      alert(item.GoodsID)
-                      // this.props.navigator.push({
-                      //     component: My,
-                      //     args: {}})
-                        }
+                      this.props.navigator.push({
+                          component: My,
+                          args: {}})
+                      }}
                     >
                     <Text style={styles.quan}>券{item.Quan_price}</Text>
                     <Image source={{uri :item.Pic}} style={{maxWidth:width/2, height: 200}}></Image>

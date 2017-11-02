@@ -25,8 +25,8 @@ export default class Navbar extends Component {
       currentTab: '今日特卖'
     }
     this.items = [
-      [ '今日特卖', 'jinritemai', <Index {...this.props} /> ],
-      [ '九块九', 'jiukuaijiu', <Jiu {...this.props} /> ],
+      [ '今日特卖', 'jinritemai', <Index /> ],
+      [ '九块九', 'jiukuaijiu', <Jiu /> ],
       [ '精选', 'jingxuan', <Choice /> ],
       [ '个人中心', 'yonghuzhongxin', <My /> ]
     ]
