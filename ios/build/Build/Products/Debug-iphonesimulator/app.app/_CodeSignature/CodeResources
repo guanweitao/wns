@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		7lWoVZ7dJKmxLYPAekaZMN7rOic=
+		pnqWGxZ7AmgQDkPPtYQZcBnoiyI=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DCukz/T/QjulAN3Ew6qvPBETMs0=
+		h4B06rQhaw5NeKWalLlg/IKv2tA=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -103,7 +103,7 @@
 		</data>
 		<key>PlugIns/appTests.xctest.dSYM/Contents/Resources/DWARF/appTests</key>
 		<data>
-		qAXsM9gBUezPMiYlfXc0d930iD8=
+		whcV2MB0VCTHw3DsLrD+IDqRtIU=
 		</data>
 		<key>PlugIns/appTests.xctest/Info.plist</key>
 		<data>
@@ -115,7 +115,7 @@
 		</data>
 		<key>PlugIns/appTests.xctest/appTests</key>
 		<data>
-		PQ1OugIkqlNqsjfKXOc5ETGlXPY=
+		E4to3q+r7G2CNrqSgVSIEgunAG0=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -132,11 +132,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7lWoVZ7dJKmxLYPAekaZMN7rOic=
+			pnqWGxZ7AmgQDkPPtYQZcBnoiyI=
 			</data>
 			<key>hash2</key>
 			<data>
-			KBYzRXPkzN9XPMNA13mFP5HUNgB9mZbpTFmdpYuNbXU=
+			CQZ/MZOgvgoUwXhAFtrlsHR6azoEoXPjiKdySLI3UEM=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -365,11 +365,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qAXsM9gBUezPMiYlfXc0d930iD8=
+			whcV2MB0VCTHw3DsLrD+IDqRtIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			8Kzbr/Cht0GvaWlnEaexrIwUO1oPqrgPE7cmaZKU9uk=
+			A1wTaOd0jESlqU2vPUA7bqeqCwYeng6TbsquBOF/Gwg=
 			</data>
 		</dict>
 		<key>PlugIns/appTests.xctest/Info.plist</key>
@@ -398,11 +398,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PQ1OugIkqlNqsjfKXOc5ETGlXPY=
+			E4to3q+r7G2CNrqSgVSIEgunAG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			G+2+1aW30xUXGys9Z+s2V2/aBZ8Cn9Ookj6Ts37UbM4=
+			CJAy4UN2jiyURA73mI39/Nz2o3Qj7t5gXfcuJqqTTQw=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
