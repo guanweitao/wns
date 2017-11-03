@@ -18,6 +18,7 @@ import {
   Navigator,
   TouchableOpacity,
   TouchableHighlight,
+  Modal
 } from 'react-native';
 let {width, height} = Dimensions.get('window')
 import Icon from 'react-native-vector-icons/Iconfont'
@@ -25,6 +26,7 @@ import Swiper from 'react-native-swiper'
 import axios from 'axios'
 import My from '../my/My'
 const isIOS = Platform.OS == "ios"
+import { loadingModalVisible } from '../../api/api'
 
 export default class Index extends Component {
   constructor(props){
@@ -82,47 +84,54 @@ export default class Index extends Component {
   render() {
     return (
       <View style={styles.index}>
-        <View style={{flexDirection: 'row',justifyContent: 'space-between'}}>
-          <Icon name='fenlei' size={30} color="#666" />
-          <TextInput
-            style={styles.searchInput}
-            placeholder="请搜索你想要的商品"
-          />
-          <TouchableOpacity style={{backgroundColor: 'red'}}>
-                <Icon name="denglu" size={30} color="#666" />
-              </TouchableOpacity>
-        </View>
-        <View style={{height: (width/4*.6+20)*2}}>
-          {this._renderTypes('index')}
-        </View>
-        <ScrollView
-        >
-          <View style={{flex:1, flexDirection: 'row',width: width, flexWrap: 'wrap'}}>
-            { this.state.topList.map((item, i) => {
-              return (
-                <View
-                  style={styles.goodsItem}
-                  key={i}>
-                  <TouchableOpacity
-                    onPress={() => {
-                      this.props.navigator.push({
-                          component: My,
-                          args: {}})
-                      }}
-                    >
-                    <Text style={styles.quan}>券{item.Quan_price}</Text>
-                    <Image source={{uri :item.Pic}} style={{maxWidth:width/2, height: 200}}></Image>
-                    <Text style={styles.goodsTitle}>{item.D_title}</Text>
-                    <View style={styles.aboutQuan}>
-                      <Text style={styles.name}>券后<Text style={styles.quanhou}>￥{item.Price}</Text></Text>
-                      <Text style={styles.name}>销量<Text style={styles.quanhou}>{item.Sales_num}</Text></Text>
-                    </View>
-                  </TouchableOpacity>
-                </View>
-              )
-            }) }
+        {/* <Modal
+          animationType={"fade"}
+          transparent={false}
+          visible={!loadingModalVisible}
+          >
+          </Modal> */}
+          <View style={{flexDirection: 'row',justifyContent: 'space-between'}}>
+            <Icon name='fenlei' size={30} color="#666" />
+            <TextInput
+              style={styles.searchInput}
+              placeholder="请搜索你想要的商品"
+            />
+            <TouchableOpacity style={{backgroundColor: 'red'}}>
+                  <Icon name="denglu" size={30} color="#666" />
+                </TouchableOpacity>
           </View>
-        </ScrollView>
+          <View style={{height: (width/4*.6+20)*2}}>
+            {this._renderTypes('index')}
+          </View>
+          <ScrollView
+          >
+            <View style={{flex:1, flexDirection: 'row',width: width, flexWrap: 'wrap'}}>
+              { this.state.topList.map((item, i) => {
+                return (
+                  <View
+                    style={styles.goodsItem}
+                    key={i}>
+                    <TouchableOpacity
+                      onPress={() => {
+                        this.props.navigator.push({
+                            component: My,
+                            args: {}})
+                        }}
+                      >
+                      <Text style={styles.quan}>券{item.Quan_price}</Text>
+                      <Image source={{uri :item.Pic}} style={{maxWidth:width/2, height: 200}}></Image>
+                      <Text style={styles.goodsTitle}>{item.D_title}</Text>
+                      <View style={styles.aboutQuan}>
+                        <Text style={styles.name}>券后<Text style={styles.quanhou}>￥{item.Price}</Text></Text>
+                        <Text style={styles.name}>销量<Text style={styles.quanhou}>{item.Sales_num}</Text></Text>
+                      </View>
+                    </TouchableOpacity>
+                  </View>
+                )
+              }) }
+            </View>
+          </ScrollView>
+
       </View>
     );
   }

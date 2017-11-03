@@ -41,7 +41,6 @@
 		886D5C6A1FA707EF00123F60 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886D5C5E1FA707EF00123F60 /* Feather.ttf */; };
 		886D5C6B1FA707EF00123F60 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886D5C5F1FA707EF00123F60 /* FontAwesome.ttf */; };
 		886D5C6C1FA707EF00123F60 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886D5C601FA707EF00123F60 /* Foundation.ttf */; };
-		886D5C6D1FA707EF00123F60 /* Iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886D5C611FA707EF00123F60 /* Iconfont.ttf */; };
 		886D5C6E1FA707EF00123F60 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886D5C621FA707EF00123F60 /* Ionicons.ttf */; };
 		886D5C6F1FA707EF00123F60 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886D5C631FA707EF00123F60 /* MaterialCommunityIcons.ttf */; };
 		886D5C701FA707EF00123F60 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 886D5C641FA707EF00123F60 /* MaterialIcons.ttf */; };
@@ -328,13 +327,13 @@
 		886D5C5E1FA707EF00123F60 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
 		886D5C5F1FA707EF00123F60 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		886D5C601FA707EF00123F60 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
-		886D5C611FA707EF00123F60 /* Iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iconfont.ttf; sourceTree = "<group>"; };
 		886D5C621FA707EF00123F60 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
 		886D5C631FA707EF00123F60 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
 		886D5C641FA707EF00123F60 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		886D5C651FA707EF00123F60 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		886D5C661FA707EF00123F60 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		886D5C671FA707EF00123F60 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		88AC56CD1FAC8F55001F5E52 /* Iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Iconfont.ttf; path = ../../../../../Downloads/font_454796_8xvr0b8r8fzjjor/Iconfont.ttf; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -577,12 +576,12 @@
 		886D5C5B1FA707EF00123F60 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				88AC56CD1FAC8F55001F5E52 /* Iconfont.ttf */,
 				886D5C5C1FA707EF00123F60 /* Entypo.ttf */,
 				886D5C5D1FA707EF00123F60 /* EvilIcons.ttf */,
 				886D5C5E1FA707EF00123F60 /* Feather.ttf */,
 				886D5C5F1FA707EF00123F60 /* FontAwesome.ttf */,
 				886D5C601FA707EF00123F60 /* Foundation.ttf */,
-				886D5C611FA707EF00123F60 /* Iconfont.ttf */,
 				886D5C621FA707EF00123F60 /* Ionicons.ttf */,
 				886D5C631FA707EF00123F60 /* MaterialCommunityIcons.ttf */,
 				886D5C641FA707EF00123F60 /* MaterialIcons.ttf */,
@@ -1019,7 +1018,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				886D5C6D1FA707EF00123F60 /* Iconfont.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				886D5C721FA707EF00123F60 /* SimpleLineIcons.ttf in Resources */,
 				886D5C6E1FA707EF00123F60 /* Ionicons.ttf in Resources */,
